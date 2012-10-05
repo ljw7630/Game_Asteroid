@@ -1,0 +1,31 @@
+End/PanelOverlay
+	
+{
+	
+        zorder 500
+	
+        container BorderPanel(End/Main)
+	
+        {
+	
+           
+
+element TextArea(End)
+    {
+       metrics_mode pixels
+   vert_align center
+       left 170
+       top -100
+       width 50
+       height 20
+       font_name BlueHighway
+       char_height 150
+       caption End
+       colour_top 1.0 0.0 0.0
+       colour_bottom 0.1 0.1 0.1
+    }
+                             
+	
+        }
+	
+}

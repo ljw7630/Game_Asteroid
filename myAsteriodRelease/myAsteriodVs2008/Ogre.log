@@ -1,0 +1,414 @@
+15:57:01: Creating resource group General
+15:57:01: Creating resource group Internal
+15:57:01: Creating resource group Autodetect
+15:57:01: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:57:01: Registering ResourceManager for type Material
+15:57:01: Registering ResourceManager for type Mesh
+15:57:01: Registering ResourceManager for type Skeleton
+15:57:01: MovableObjectFactory for type 'ParticleSystem' registered.
+15:57:01: OverlayElementFactory for type Panel registered.
+15:57:01: OverlayElementFactory for type BorderPanel registered.
+15:57:01: OverlayElementFactory for type TextArea registered.
+15:57:01: Registering ResourceManager for type Font
+15:57:01: ArchiveFactory for archive type FileSystem registered.
+15:57:01: ArchiveFactory for archive type Zip registered.
+15:57:01: FreeImage version: 3.10.0
+15:57:01: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:57:01: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+15:57:01: DDS codec registering
+15:57:01: Registering ResourceManager for type HighLevelGpuProgram
+15:57:01: Registering ResourceManager for type Compositor
+15:57:01: MovableObjectFactory for type 'Entity' registered.
+15:57:01: MovableObjectFactory for type 'Light' registered.
+15:57:01: MovableObjectFactory for type 'BillboardSet' registered.
+15:57:01: MovableObjectFactory for type 'ManualObject' registered.
+15:57:01: MovableObjectFactory for type 'BillboardChain' registered.
+15:57:01: MovableObjectFactory for type 'RibbonTrail' registered.
+15:57:01: Loading library .\RenderSystem_Direct3D9
+15:57:01: Installing plugin: D3D9 RenderSystem
+15:57:01: D3D9 : Direct3D9 Rendering Subsystem created.
+15:57:01: D3D9: Driver Detection Starts
+15:57:01: D3D9: Driver Detection Ends
+15:57:01: Plugin successfully installed
+15:57:01: Loading library .\RenderSystem_GL
+15:57:01: Installing plugin: GL RenderSystem
+15:57:01: OpenGL Rendering Subsystem created.
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_ParticleFX
+15:57:02: Installing plugin: ParticleFX
+15:57:02: Particle Emitter Type 'Point' registered
+15:57:02: Particle Emitter Type 'Box' registered
+15:57:02: Particle Emitter Type 'Ellipsoid' registered
+15:57:02: Particle Emitter Type 'Cylinder' registered
+15:57:02: Particle Emitter Type 'Ring' registered
+15:57:02: Particle Emitter Type 'HollowEllipsoid' registered
+15:57:02: Particle Affector Type 'LinearForce' registered
+15:57:02: Particle Affector Type 'ColourFader' registered
+15:57:02: Particle Affector Type 'ColourFader2' registered
+15:57:02: Particle Affector Type 'ColourImage' registered
+15:57:02: Particle Affector Type 'ColourInterpolator' registered
+15:57:02: Particle Affector Type 'Scaler' registered
+15:57:02: Particle Affector Type 'Rotator' registered
+15:57:02: Particle Affector Type 'DirectionRandomiser' registered
+15:57:02: Particle Affector Type 'DeflectorPlane' registered
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_BSPSceneManager
+15:57:02: Installing plugin: BSP Scene Manager
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_CgProgramManager
+15:57:02: Installing plugin: Cg Program Manager
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_PCZSceneManager.dll
+15:57:02: Installing plugin: Portal Connected Zone Scene Manager
+15:57:02: PCZone Factory Type 'ZoneType_Default' registered
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_OctreeZone.dll
+15:57:02: Installing plugin: Octree Zone Factory
+15:57:02: Plugin successfully installed
+15:57:02: Loading library .\Plugin_OctreeSceneManager
+15:57:02: Installing plugin: Octree & Terrain Scene Manager
+15:57:02: Plugin successfully installed
+15:57:02: *-*-* OGRE Initialising
+15:57:02: *-*-* Version 1.6.3 (Shoggoth)
+15:57:02: Creating resource group Bootstrap
+15:57:02: Added resource location 'g:/OgreSDK/media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+15:57:02: Added resource location 'g:/OgreSDK/media' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/fonts' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/models' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/overlays' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location './media' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/particle' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/gui' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/PCZAppMedia' of type 'FileSystem' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/cubemap.zip' of type 'Zip' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/dragon.zip' of type 'Zip' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/fresneldemo.zip' of type 'Zip' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/ogretestmap.zip' of type 'Zip' to resource group 'General'
+15:57:03: Added resource location 'g:/OgreSDK/media/packs/skybox.zip' of type 'Zip' to resource group 'General'
+15:57:03: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+15:57:03: D3D9 : RenderSystem Option: Anti aliasing = None
+15:57:03: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+15:57:03: D3D9 : RenderSystem Option: Full Screen = No
+15:57:03: D3D9 : RenderSystem Option: Rendering Device = ATI Mobility Radeon HD 3430
+15:57:03: D3D9 : RenderSystem Option: VSync = No
+15:57:03: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+15:57:03: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+15:57:04: CPU Identifier & Features
+15:57:04: -------------------------
+15:57:04:  *   CPU ID: GenuineIntel: Intel(R) Core(TM)2 Duo CPU     P7370  @ 2.00GHz
+15:57:04:  *      SSE: yes
+15:57:04:  *     SSE2: yes
+15:57:04:  *     SSE3: yes
+15:57:04:  *      MMX: yes
+15:57:04:  *   MMXEXT: yes
+15:57:04:  *    3DNOW: no
+15:57:04:  * 3DNOWEXT: no
+15:57:04:  *     CMOV: yes
+15:57:04:  *      TSC: yes
+15:57:04:  *      FPU: yes
+15:57:04:  *      PRO: yes
+15:57:04:  *       HT: no
+15:57:04: -------------------------
+15:57:04: D3D9 : Subsystem Initialising
+15:57:04: D3D9RenderSystem::_createRenderWindow "DIT HIT OOP Class", 800x600 windowed  miscParams: FSAA=0 FSAAQuality=0 colourDepth=32 gamma=false useNVPerfHUD=false vsync=false 
+15:57:04: D3D9 : Created D3D9 Rendering Window 'DIT HIT OOP Class' : 800x600, 32bpp
+15:57:04: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+15:57:04: Registering ResourceManager for type Texture
+15:57:04: Registering ResourceManager for type GpuProgram
+15:57:04: D3D9: Vertex texture format supported - PF_L8
+15:57:04: D3D9: Vertex texture format supported - PF_L16
+15:57:04: D3D9: Vertex texture format supported - PF_A8
+15:57:04: D3D9: Vertex texture format supported - PF_A4L4
+15:57:04: D3D9: Vertex texture format supported - PF_BYTE_LA
+15:57:04: D3D9: Vertex texture format supported - PF_R5G6B5
+15:57:04: D3D9: Vertex texture format supported - PF_B5G6R5
+15:57:04: D3D9: Vertex texture format supported - PF_A4R4G4B4
+15:57:04: D3D9: Vertex texture format supported - PF_A1R5G5B5
+15:57:04: D3D9: Vertex texture format supported - PF_A8R8G8B8
+15:57:04: D3D9: Vertex texture format supported - PF_B8G8R8A8
+15:57:04: D3D9: Vertex texture format supported - PF_A2R10G10B10
+15:57:04: D3D9: Vertex texture format supported - PF_A2B10G10R10
+15:57:04: D3D9: Vertex texture format supported - PF_DXT1
+15:57:04: D3D9: Vertex texture format supported - PF_DXT2
+15:57:04: D3D9: Vertex texture format supported - PF_DXT3
+15:57:04: D3D9: Vertex texture format supported - PF_DXT4
+15:57:04: D3D9: Vertex texture format supported - PF_DXT5
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+15:57:04: D3D9: Vertex texture format supported - PF_X8R8G8B8
+15:57:04: D3D9: Vertex texture format supported - PF_X8B8G8R8
+15:57:04: D3D9: Vertex texture format supported - PF_R8G8B8A8
+15:57:04: D3D9: Vertex texture format supported - PF_DEPTH
+15:57:04: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT16_R
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT32_R
+15:57:04: D3D9: Vertex texture format supported - PF_SHORT_GR
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+15:57:04: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+15:57:04: D3D9: Vertex texture format supported - PF_SHORT_RGB
+15:57:04: RenderSystem capabilities
+15:57:04: -------------------------
+15:57:04: RenderSystem Name: Direct3D9 Rendering Subsystem
+15:57:04: GPU Vendor: ati
+15:57:04: Device Name: ATI Mobility Radeon HD 3430
+15:57:04: Driver Version: 8.14.10.678
+15:57:04:  * Fixed function pipeline: yes
+15:57:05:  * Hardware generation of mipmaps: yes
+15:57:05:  * Texture blending: yes
+15:57:05:  * Anisotropic texture filtering: yes
+15:57:05:  * Dot product texture operation: yes
+15:57:05:  * Cube mapping: yes
+15:57:05:  * Hardware stencil buffer: yes
+15:57:05:    - Stencil depth: 8
+15:57:05:    - Two sided stencil support: yes
+15:57:05:    - Wrap stencil values: yes
+15:57:05:  * Hardware vertex / index buffers: yes
+15:57:05:  * Vertex programs: yes
+15:57:05:  * Fragment programs: yes
+15:57:05:  * Geometry programs: no
+15:57:05:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+15:57:05:  * Texture Compression: yes
+15:57:05:    - DXT: yes
+15:57:05:    - VTC: no
+15:57:05:  * Scissor Rectangle: yes
+15:57:05:  * Hardware Occlusion Query: yes
+15:57:05:  * User clip planes: yes
+15:57:05:  * VET_UBYTE4 vertex element type: yes
+15:57:05:  * Infinite far plane projection: yes
+15:57:05:  * Hardware render-to-texture: yes
+15:57:05:  * Floating point textures: yes
+15:57:05:  * Non-power-of-two textures: yes
+15:57:05:  * Volume textures: yes
+15:57:05:  * Multiple Render Targets: 4
+15:57:05:    - With different bit depths: yes
+15:57:05:  * Point Sprites: yes
+15:57:05:  * Extended point parameters: yes
+15:57:05:  * Max Point Size: 256
+15:57:05:  * Vertex texture fetch: yes
+15:57:05:    - Max vertex textures: 4
+15:57:05:    - Vertex textures shared: no
+15:57:05:  * Render to Vertex Buffer : no
+15:57:05:  * DirectX per stage constants: yes
+15:57:05: ***************************************
+15:57:05: *** D3D9 : Subsystem Initialised OK ***
+15:57:05: ***************************************
+15:57:05: ResourceBackgroundQueue - threading disabled
+15:57:05: Particle Renderer Type 'billboard' registered
+15:57:05: SceneManagerFactory for type 'BspSceneManager' registered.
+15:57:05: Registering ResourceManager for type BspLevel
+15:57:05: SceneManagerFactory for type 'PCZSceneManager' registered.
+15:57:05: MovableObjectFactory for type 'PCZLight' registered.
+15:57:05: PCZone Factory Type 'ZoneType_Octree' registered
+15:57:05: PCZone Factory Type 'ZoneType_Terrain' registered
+15:57:05: SceneManagerFactory for type 'OctreeSceneManager' registered.
+15:57:05: SceneManagerFactory for type 'TerrainSceneManager' registered.
+15:57:05: Parsing scripts for resource group Autodetect
+15:57:05: Finished parsing scripts for resource group Autodetect
+15:57:05: Parsing scripts for resource group Bootstrap
+15:57:05: Parsing script OgreCore.material
+15:57:05: Parsing script OgreProfiler.material
+15:57:05: Parsing script Ogre.fontdef
+15:57:05: Parsing script OgreDebugPanel.overlay
+15:57:05: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+15:57:05: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:57:05: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+15:57:05: Font BlueHighwayusing texture size 512x512
+15:57:05: Info: Freetype returned null for character 127 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 128 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 129 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 130 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 131 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 132 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 133 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 134 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 135 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 136 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 137 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 138 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 139 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 140 in font BlueHighway
+15:57:05: Info: Freetype returned null for character 141 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 142 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 143 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 144 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 145 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 146 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 147 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 148 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 149 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 150 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 151 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 152 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 153 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 154 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 155 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 156 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 157 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 158 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 159 in font BlueHighway
+15:57:06: Info: Freetype returned null for character 160 in font BlueHighway
+15:57:06: Texture: BlueHighwayTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+15:57:06: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+15:57:06: Parsing script OgreLoadingPanel.overlay
+15:57:06: Finished parsing scripts for resource group Bootstrap
+15:57:06: Parsing scripts for resource group General
+15:57:06: Parsing script Examples.program
+15:57:06: Parsing script StdQuad_vp.program
+15:57:06: Parsing script deferred.glsl.program
+15:57:06: Parsing script deferred.hlsl.program
+15:57:06: Parsing script deferred.program
+15:57:07: Parsing script deferred_post_ambient.program
+15:57:07: Parsing script deferred_post_debug.glsl.program
+15:57:07: Parsing script deferred_post_debug.hlsl.program
+15:57:07: Parsing script deferred_post_debug.program
+15:57:07: Parsing script deferred_post_minilight.glsl.program
+15:57:07: Parsing script deferred_post_minilight.hlsl.program
+15:57:07: OGRE EXCEPTION(2:InvalidParametersException): Parameter called lightFalloff does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+15:57:07: Compiler error: invalid parameters in deferred_post_minilight.hlsl.program(27): setting of constant failed
+15:57:07: Parsing script deferred_post_minilight.program
+15:57:07: Parsing script deferred_post_multipass.glsl.program
+15:57:07: Parsing script deferred_post_multipass.hlsl.program
+15:57:07: Parsing script deferred_post_onepass.glsl.program
+15:57:07: Parsing script deferred_post_onepass.hlsl.program
+15:57:07: Parsing script deferred_post_vs.program
+15:57:07: Parsing script ASCII.material
+15:57:07: Parsing script ASMSwizzle.material
+15:57:07: Compiler error: object unsupported by render system in ASMSwizzle.material(1)
+15:57:07: Parsing script BlackAndWhite.material
+15:57:07: Parsing script Bloom.material
+15:57:07: Parsing script Bloom2.material
+15:57:07: Parsing script CGSwizzle.material
+15:57:07: Parsing script DepthShadowmap.material
+15:57:08: Parsing script Dither.material
+15:57:08: Parsing script DOF.material
+15:57:08: Parsing script Embossed.material
+15:57:08: Parsing script Example-DynTex.material
+15:57:08: Parsing script Example-Water.material
+15:57:08: Parsing script Example.material
+15:57:08: OGRE EXCEPTION(2:InvalidParametersException): Parameter called camObjPos does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at ..\src\OgreGpuProgram.cpp (line 1097)
+15:57:08: Compiler error: invalid parameters in Example.material(762): setting of constant failed
+15:57:09: Parsing script Examples-Advanced.material
+15:57:10: Parsing script facial.material
+15:57:10: Parsing script Glass.material
+15:57:10: Parsing script GLSLSwizzle.material
+15:57:10: Parsing script Halftone.material
+15:57:10: Parsing script hdr.material
+15:57:10: Parsing script HeatVision.material
+15:57:10: Parsing script Hurt.material
+15:57:10: Parsing script instancing.material
+15:57:11: Parsing script Invert.material
+15:57:11: Parsing script IsoSurf.material
+15:57:11: Parsing script Laplace.material
+15:57:11: Parsing script MotionBlur.material
+15:57:11: Parsing script MRTtest.material
+15:57:11: Parsing script NightVision.material
+15:57:11: Parsing script Ocean.material
+15:57:12: Parsing script OffsetMapping.material
+15:57:12: Parsing script Ogre.material
+15:57:12: Parsing script OldMovie.material
+15:57:12: Parsing script OldTV.material
+15:57:12: Parsing script ParticleGS.material
+15:57:12: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/GenerateVS: CG ERROR : The compile returned an error.
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: High-level program Ogre/ParticleGS/GenerateVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/GenerateVS: CG ERROR : The compile returned an error.
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayVS: CG ERROR : The compile returned an error.
+(249) : warning C7050: "output.color" might be used before being initialized
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: High-level program Ogre/ParticleGS/DisplayVS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayVS: CG ERROR : The compile returned an error.
+(249) : warning C7050: "output.color" might be used before being initialized
+(0) : error C6015: Output 'POSITION' not completely written
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: CG ERROR : The compile returned an error.
+(323) : fatal error C9999: unexpected cast operation
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: High-level program Ogre/ParticleGS/DisplayPS encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(7:InternalErrorException): Unable to compile Cg program Ogre/ParticleGS/DisplayPS: CG ERROR : The compile returned an error.
+(323) : fatal error C9999: unexpected cast operation
+ in CgProgram::loadFromSource at ..\src\OgreCgProgramManagerDll.cpp (line 66)
+15:57:12: Parsing script Posterize.material
+15:57:12: Parsing script pssm.material
+15:57:12: Parsing script RadialBlur.material
+15:57:12: Parsing script RZR-002.material
+15:57:12: Parsing script SharpenEdges.material
+15:57:12: Parsing script smoke.material
+15:57:13: Parsing script Tiling.material
+15:57:13: Parsing script VarianceShadowmap.material
+15:57:13: Parsing script deferred.material
+15:57:13: Parsing script deferreddemo.material
+15:57:13: Parsing script deferred_post_ambient.material
+15:57:13: Parsing script deferred_post_debug.material
+15:57:13: Parsing script deferred_post_minilight.material
+15:57:13: Parsing script deferred_post_multipass.material
+15:57:13: Parsing script deferred_post_onepass.material
+15:57:13: Parsing script ROOM.material
+15:57:13: Parsing script RomanBath.material
+15:57:13: Parsing script emitted_emitter.particle
+15:57:13: Parsing script Example-Water.particle
+15:57:13: Parsing script Example.particle
+15:57:13: Parsing script smoke.particle
+15:57:13: Parsing script Examples.compositor
+15:57:13: Parsing script deferred.compositor
+15:57:13: Parsing script sample.fontdef
+15:57:13: Parsing script Compositor.overlay
+15:57:13: Parsing script DP3.overlay
+15:57:13: Parsing script Example-CubeMapping.overlay
+15:57:13: Parsing script Example-DynTex.overlay
+15:57:13: Parsing script Example-Water.overlay
+15:57:13: Parsing script Shadows.overlay
+15:57:13: Parsing script end.overlay
+15:57:13: Parsing script panel.overlay
+15:57:13: Finished parsing scripts for resource group General
+15:57:13: Parsing scripts for resource group Internal
+15:57:13: Finished parsing scripts for resource group Internal
+15:57:14: Texture: stevecube_fr.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Texture: stevecube_bk.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Texture: stevecube_lf.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Texture: stevecube_rt.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Texture: stevecube_up.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Texture: stevecube_dn.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Mesh: Loading RZR-002.mesh.
+15:57:14: Texture: RZR-002.png: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+15:57:14: Mesh: Loading knot.mesh.
+15:57:14: Texture: MtlPlat2.jpg: Loading 1 faces(PF_R8G8B8,780x511x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,780x511x1.
+15:57:14: Mesh: Loading ogrehead.mesh.
+15:57:14: Texture: WeirdEye.png: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+15:57:14: Texture: GreenSkin.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+15:57:14: Texture: spheremap.png: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+15:57:14: Texture: dirt01.jpg: Loading 1 faces(PF_R8G8B8,96x96x1) with 6 generated mipmaps from Image. Internal format is PF_X8R8G8B8,96x96x1.
+15:57:14: Mesh: Loading facial.mesh.
+15:57:14: Can't assign material drbunsen_eye to SubEntity of Asteroid7 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:14: Texture: Dr_Bunsen_Head.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:57:15: Can't assign material drbunsen_eye to SubEntity of Asteroid8 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material drbunsen_eye to SubEntity of Asteroid9 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Mesh: Loading geosphere4500.mesh.
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet0 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet1 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet2 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet3 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet4 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet5 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet6 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet7 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet8 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Can't assign material Ground_Grass_sub2 to SubEntity of Bullet9 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:15: Texture: smoke.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:57:20: Mesh: Loading sphere.mesh.
+15:57:20: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod0 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:20: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod1 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:36: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod8 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:36: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod9 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:36: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod10 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:36: Can't assign material drbunsen_eye to SubEntity of LittleAsteriod11 because this Material does not exist. Have you forgotten to define it in a .material script?
